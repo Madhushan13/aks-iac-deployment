@@ -1,4 +1,6 @@
-# AKS IaC and Deployment Task 🚀
+***`Hey there! 👋 My Kubernetes cluster 🐳 is up and running with the nginx web server. Want to see it in action? Swing by 👉*** [live](http://57.155.125.5/) ***it’s live and waiting for you! 🚀***
+
+
 
 ## Introduction 🌟
 
@@ -54,7 +56,7 @@ Ready to move to the next step? Let’s get hands-on by cloning the repository a
 First, you’ll need to clone the GitHub repository to your local machine. Use this command, replacing <your-repo-url> with the actual URL of your repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Madhushan13/aks-iac-deployment.git
 ```
 
 This downloads a local copy of the project files, including the Terraform configuration and Kubernetes YAMLs.
@@ -453,7 +455,7 @@ I was logged in, and Terraform could now use these credentials. It was surprisin
 In my terminal, I navigated to my projects folder and ran:
 
 ```bash
-git clone https://github.com/yourusername/aks-iac-deployment.git
+git clone https://github.com/Madhushan13/aks-iac-deployment.git
 ```
 
 ```bash
@@ -721,7 +723,7 @@ terraform plan
 terraform apply
 ```
 
-![PATH Conflicts with Docker Desktop](error_1_when_apply_terraform/image.png)
+![PATH Conflicts with Docker Desktop](screenshot/error_1_when_apply_terraform.png)
 
 - When completed the process i typed `yes` to confirm. , noted the output values (e.g., `resource_group_name` and `cluster_name`).
 
@@ -972,5 +974,6 @@ kubectl delete -f service.yaml
 ## 🎉 Wrapping Up
 
 I did it! I deployed nginx to my AKS cluster with a Deployment and Service, all through self-study. It was a blast learning how Kubernetes keeps apps running and accessible. Now I’m pumped to try more advanced stuff! If you’re following along, give it a shot—I’d love to hear how it goes for you. Happy coding! 🌟
+![Nginx Welcome page](screenshot/test_the_Nginx_application1.png)
 
 **`This is part of my self-study project on AKS with Terraform and Kubernetes. Check out the repo for more, and let me know what you think!`**
